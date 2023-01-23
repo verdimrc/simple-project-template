@@ -1,0 +1,15 @@
+{
+  "project_name": "My new project",
+  "repo_name": "my-repo",
+  "author_name": "Your name (or your organization/company/team)",
+  "description": "A short description of the project.",
+  "open_source_license": [
+    "No license file",
+    "MIT License",
+    "Apache-2.0 License"
+  ],
+  "pre_commit": [
+    "foundation",
+    "advanced"
+  ]
+}
