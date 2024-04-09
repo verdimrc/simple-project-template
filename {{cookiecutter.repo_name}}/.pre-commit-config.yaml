@@ -14,8 +14,8 @@ repos:
       - id: detect-private-key
       - id: end-of-file-fixer
       - id: trailing-whitespace
-        # See: https://github.com/c4urself/bump2version/issues/58
-        exclude: setup.cfg
+        # For setup.cfg exclusion, see https://github.com/c4urself/bump2version/issues/58
+        exclude: '^setup.cfg$|.*\.diff$|.*\.patch$'
 {%- if cookiecutter.pre_commit == "advanced" %}
   # May need to run `export GOPROXY=direct` prior to `pre-commit install`
   - repo: https://github.com/zricethezav/gitleaks
