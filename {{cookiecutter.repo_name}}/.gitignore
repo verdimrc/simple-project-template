@@ -1,3 +1,9 @@
+# NOTE: to allow-list whatever ignored in the pre-defined list, append the
+# overrides at the end of this file.
+
+###############################################################################
+# BEGIN: pre-defined entries
+###############################################################################
 .env.unversioned
 
 # vscode: retain launch.json for sample invocation
@@ -156,3 +162,8 @@ wandb/
 # Slurm
 slurm-*.out
 slurm-*.err
+###############################################################################
+# END: predefined entries
+###############################################################################
+
+# For readability, append overrides below, rather than mixed in the above list.
