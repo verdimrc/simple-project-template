@@ -3,7 +3,7 @@ repos:
     rev: v4.4.0
     hooks:
       - id: check-json
-        exclude: .vscode
+        exclude: ^(.vscode|.devcontainer)
       - id: check-merge-conflict
       - id: check-symlinks
       - id: check-toml
