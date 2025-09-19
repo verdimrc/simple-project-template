@@ -1,3 +1,7 @@
+# When copying from Windows to WSL.
+*:Zone.Identifier
+*:sec.endpointdlp
+
 # Jupyter notebook's checkpoints
 .ipynb_checkpoints
 
