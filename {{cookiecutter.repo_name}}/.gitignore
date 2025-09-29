@@ -13,6 +13,7 @@
 # Directories for must-not-be-versioned datasets.
 /data/
 test/data/
+log/
 
 # When copying from Windows to WSL.
 *:Zone.Identifier
