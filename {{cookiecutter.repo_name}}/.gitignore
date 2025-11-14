@@ -125,6 +125,7 @@ target/
 
 # Environments
 .env
+.env.keys
 .venv
 env/
 venv/
