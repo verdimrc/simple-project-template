@@ -7,3 +7,11 @@ description = "Potential sk-prefixed API token"
 regex = '''\b(sk-[A-Za-z0-9_-]{20,})(?:[^A-Za-z0-9_-]|$)'''
 secretGroup = 1
 keywords = ["sk-"]
+
+
+[[rules]]
+id = "custom-nvapi-token"
+description = "Potential nvapi-prefixed API token"
+regex = '''\b(nvapi-[A-Za-z0-9_-]{20,})(?:[^A-Za-z0-9_-]|$)'''
+secretGroup = 1
+keywords = ["nvapi-"]
